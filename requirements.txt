@@ -1,1 +1,2 @@
-PRAW
+praw>=7.1.0,<1.0.0
+-e git://github.com/richardARPANET/python-ruqqus.git@2be4c195235669e5b54199040604e2dbb82741d2#egg=ruqqus

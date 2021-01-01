@@ -2,7 +2,7 @@ import os
 from urllib.parse import urlparse
 
 import praw
-from raw import Raw as RuqqusClient
+from ruqqus import RuqqusClient
 
 REDDIT_SOURCE_SUBREDDIT = os.environ['REDDIT_SOURCE_SUBREDDIT']
 REDDIT_CLIENT_SECRET = os.environ['REDDIT_CLIENT_SECRET']

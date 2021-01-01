@@ -30,6 +30,7 @@ See below links for information on sourcing values for these:
 - https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps
 - https://ruqqus.com/help/oauth
 
+Run the program:
 
 ```bash
 python red_to_ruq.py

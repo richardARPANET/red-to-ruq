@@ -25,6 +25,12 @@ RUQQUS_APP_REFRESH_TOKEN
 RUQQUS_DESTINATION_GUILD
 ```
 
+See below links for information on sourcing values for these:
+
+- https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps
+- https://ruqqus.com/help/oauth
+
+
 ```bash
 python red_to_ruq.py
 ```
@@ -40,8 +46,3 @@ Submitting to Ruqqus: "<post_title_here>"
 Skipping existing: https://www.youtube.com/watch?v=zzzz
 Submitting to Ruqqus: "<post_title_here>"
 ```
-
-See below links for information on sourcing values for these:
-
-- https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps
-- https://ruqqus.com/help/oauth

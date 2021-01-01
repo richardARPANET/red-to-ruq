@@ -39,7 +39,7 @@ def _submit_to_ruqqus(*, title, url):
     )
 
 
-def get_reddit_submissions():
+def _get_reddit_submissions():
     submissions = REDDIT.subreddit(REDDIT_SOURCE_SUBREDDIT).hot(
         limit=REDDIT_HOT_LIMIT
     )
@@ -74,7 +74,7 @@ def main():
         name=RUQQUS_DESTINATION_GUILD
     )
 
-    for title, url in get_reddit_submissions():
+    for title, url in _get_reddit_submissions():
         if url in existing_ruqqus_post_urls:
             print(f'Skipping existing: {url}')
             continue

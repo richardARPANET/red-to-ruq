@@ -4,6 +4,10 @@ When executed this script will re-post 'hot' posts from a target Reddit.com subr
 
 If ran multiple times, it will NOT repost duplicate content.
 
+## Why use this?
+
+If you're starting a brand new Guild and would like to pre-seed it with some content to start the community.
+
 ## Installation
 
 ```bash
